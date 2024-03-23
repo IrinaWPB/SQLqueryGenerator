@@ -87,18 +87,20 @@ textarea, button {
     border: none;
     border-radius: 10px;
     padding: 10px;
-    box-shadow: 2px 2px 15px rgb(88, 88, 88);
+    box-shadow: 2px 2px 15px rgb(116, 116, 116);
 }
 
 button {
     margin: 15px 0 0 0;
-    background-color: rgb(109, 157, 255);
-    font-weight: 600;
+    background-color: rgb(28, 132, 213);
+    font-weight: 700;
+    color:  rgba(252, 219, 69); 
 }
 
 .dark-button {
-    background-color: rgb(211, 180, 42); 
+    background-color: rgba(252, 219, 69); 
     box-shadow: 2px 2px 15px rgb(138, 138, 138);
+    color:rgb(109, 157, 255);
 }
 
 button:hover {

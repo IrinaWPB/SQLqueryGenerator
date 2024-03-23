@@ -60,7 +60,7 @@ function App() {
                       setCopied(false)
                       setSqlQuery(null)
                     }}/>
-          <button className={lightMode && 'dark-button'}>Get SQL Query</button>
+          <button className={lightMode && 'dark-button'}>Generate SQL Query</button>
         </form>
 
       {sqlQuery && (
